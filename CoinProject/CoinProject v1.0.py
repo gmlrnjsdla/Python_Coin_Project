@@ -59,7 +59,7 @@ class MainWindow(QMainWindow, form_class):
         super().__init__()
         self.setupUi(self)
         self.setWindowTitle('UPBIT COIN TRADE')
-        self.setWindowIcon(QIcon('../icons/upbit.png'))
+        self.setWindowIcon(QIcon('icons/upbit.png'))
         self.statusBar().showMessage('UPBIT COIN TRADE VER 1.0')
         self.ticker = ticker
 
